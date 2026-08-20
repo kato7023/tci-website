@@ -1,0 +1,17 @@
+# OS・エディター
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# 秘密情報はこのリポジトリに置かない（誤コミット防止の保険）
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials*.json
+
+# 社内向けの作業記録。公開リポジトリなので含めない
+ChatLog/
+Docs/
