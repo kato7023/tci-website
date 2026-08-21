@@ -155,7 +155,7 @@
     .rd{background:var(--soft)}
     .rd-box{
       display:grid;
-      grid-template-columns:1fr 1fr;
+      grid-template-columns:1fr;
       gap:48px;
       align-items:start;
       background:#fff;
@@ -163,6 +163,7 @@
       border-radius:22px;
       padding:38px;
     }
+    .rd-box>div{max-width:760px}
     .badge{
       display:inline-block;
       padding:7px 12px;
@@ -176,11 +177,6 @@
     }
     .rd h3{font-size:24px;margin:0 0 14px}
     .rd p{margin:0;color:var(--muted)}
-    .rd-note{
-      border-left:3px solid var(--blue);
-      padding-left:22px;
-      color:#414b58;
-    }
 
     .company-grid{
       display:grid;
@@ -223,7 +219,7 @@
     .footer-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
     @media(max-width:820px){
-      .hero-grid,.rd-box,.contact-box{grid-template-columns:1fr}
+      .hero-grid,.contact-box{grid-template-columns:1fr}
       .hero{padding:56px 0 52px}
       .hero-grid{gap:40px}
       section{padding:60px 0}
@@ -373,11 +369,6 @@
             現在TCIでは、建設プロジェクトにおける基礎杭の検討・見積業務を効率化するため、
             AI・デジタル技術を活用した支援システムの研究開発を進めています。
           </p>
-        </div>
-        <div class="rd-note">
-          <strong>Development Stage</strong><br>
-          現在はPoC（概念実証）を含む初期開発段階です。
-          製品・サービスの詳細については、開発の進捗に応じて順次ご案内します。
         </div>
       </div>
     </div>
